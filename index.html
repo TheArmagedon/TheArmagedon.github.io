@@ -1,0 +1,158 @@
+<!DOCTYPE HTML>
+<!--
+	Herramientas de monitoreo
+-->
+<html>
+	<head>
+		<title>Uso de herramientas de monitoreo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Uso de<br />
+						Herramientas de Monitoreo</h1>
+						<p>Esta pagina tiene el proposito de brindar informacion,tutoriales y ejemplos acerca de como  se emplean diversas</a><br />
+						herramientas existentes para monitoreo y defensa de sistemas</a>.</p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">Tutoriales</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Principal</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<span class="date" id="fecha"></span>
+									<h2><a href="#">Documentacion <br />
+									del proyecto</a></h2>
+									<p>Aqui se muestra el documento PDF<br />
+									que muestra informacion mas detallada acerca<br />
+									sobre datos tecnicos y herramientas utilizadas</p>
+								</header>
+								<a href="#" class="image main"><img src="images/Sistemas.png" alt="" /></a>
+								<ul class="actions special">
+									<li><a href="documentacion.html" class="button large">Leer</a></li>
+								</ul>
+							</article>
+
+							<script>
+								const fecha = new Date();
+
+								const opciones = {
+								    year: 'numeric',
+								    month: 'long',
+								    day: 'numeric'
+								};
+
+								document.getElementById("fecha").textContent =
+								    fecha.toLocaleDateString("es-ES", opciones);
+							</script>
+						<!-- Posts -->
+							<section class="posts">
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="zabbix.html">Zabbix<br />
+										</a></h2>
+									</header>
+									<a href="zabbix.html" class="image fit"><img src="images/zabbix.png" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de Zabbix</p>
+									<ul class="actions special">
+										<li><a href="zabbix.html" class="button">Ver tutorial</a></li>
+
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="nagios.html">Nagios<br />
+										
+									</header>
+									<a href="nagios.html" class="image fit"><img src="images/nagios.webp" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de Nagios</p>
+									<ul class="actions special">
+										<li><a href="nagios.html" class="button">Ver tutorial</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="cacti.html">Cacti<br />
+										</a></h2>
+									</header>
+									<a href="cacti.html" class="image fit"><img src="images/cacti.png" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de Cacti</p>
+									<ul class="actions special">
+										<li><a href="cacti.html" class="button">Ver tutorial</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="opnsense.html">OPNsense<br />
+										</a></h2>
+									</header>
+									<a href="opnsense.html" class="image fit"><img src="images/OPNsense.png" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de OPNsense</p>
+									<ul class="actions special">
+										<li><a href="opnsense.html" class="button">Ver tutorial</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="tcpdump.html">TCPdump & libpcap<br />
+										</a></h2>
+									</header>
+									<a href="tcpdump.html" class="image fit"><img src="images/TCPdump.png" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de TCPdump & libpcap</p>
+									<ul class="actions special">
+										<li><a href="tcpdump.html" class="button">Ver tutorial</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">11 de Mayo, 2026</span>
+										<h2><a href="wireshark.html">WireShark<br />
+										</a></h2>
+									</header>
+									<a href="wireshark.html" class="image fit"><img src="images/WireShark.webp" alt="" /></a>
+									<p>Informacion, tutorial y ejemplos sobre el uso de WireShark</p>
+									<ul class="actions special">
+										<li><a href="wireshark.html" class="button">Ver tutorial</a></li>
+									</ul>
+								</article>
+							</section>
+
+                <!-- Scripts -->
+                        <script src="assets/js/jquery.min.js"></script>
+                        <script src="assets/js/jquery.scrollex.min.js"></script>
+                        <script src="assets/js/jquery.scrolly.min.js"></script>
+                        <script src="assets/js/browser.min.js"></script>
+                        <script src="assets/js/breakpoints.min.js"></script>
+                        <script src="assets/js/util.js"></script>
+                        <script src="assets/js/main.js"></script>
+	</body>
+</html>
